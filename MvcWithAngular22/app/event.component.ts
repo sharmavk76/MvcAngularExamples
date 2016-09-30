@@ -1,9 +1,13 @@
 ﻿import {Component} from '@angular/core';
 @Component({
-    selector: 'my-events',
+    
     template: `
             <h2>{{title}}</h2>
-            <ul><li *ngFor="let event of events">{{event}}</li></ul>
+            <ul>
+                <li *ngFor="let event of events">
+                  <a routerLink="/event-details">{{event}}</a>
+                </li>
+            </ul>
         `
 })
 export class EventsComponent {

@@ -10,14 +10,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 const core_1 = require('@angular/core');
 const platform_browser_1 = require('@angular/platform-browser');
+const forms_1 = require('@angular/forms');
 const app_component_1 = require('./app.component');
+const app_routing_1 = require('./app.routing');
 const event_component_1 = require('./event.component');
+const add_event_component_1 = require('./add-event.component');
+const event_details_component_1 = require('./event-details.component');
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, event_component_1.EventsComponent],
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing],
+        providers: [app_routing_1.appRoutingProviders],
+        declarations: [app_component_1.AppComponent, event_component_1.EventsComponent, add_event_component_1.AddEventComponent, event_details_component_1.EventDetailComponent],
         bootstrap: [app_component_1.AppComponent]
     }), 
     __metadata('design:paramtypes', [])
