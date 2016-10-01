@@ -63,6 +63,5 @@ C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\bin\MvcWi
 C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\bin\MvcWithAngular22.pdb
 C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\obj\Debug\MvcWithAngular2.csprojResolveAssemblyReference.cache
 C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\obj\Debug\MvcWithAngular22.dll
 C:\GitHubProjects\MvcWithAngular22\MvcAngularExamples\MvcWithAngular22\obj\Debug\MvcWithAngular22.pdb
